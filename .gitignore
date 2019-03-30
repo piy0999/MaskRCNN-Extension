@@ -1,2 +1,6 @@
 logs
 mask_rcnn_coco.h5
+/samples/output
+/samples/img
+/samples/*.mp4
+/samples/*.avi
