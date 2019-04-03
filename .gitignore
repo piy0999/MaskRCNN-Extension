@@ -4,3 +4,4 @@ mask_rcnn_coco.h5
 /samples/img
 /samples/*.mp4
 /samples/*.avi
+/samples/*.mov
