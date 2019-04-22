@@ -5,18 +5,23 @@ We will be using Anaconda with python 3.6. If you don't have Anaconda, follow th
 Create a anaconda virtual environment by:
 `conda create -n MaskRCNN anaconda python=3.6`
 
+Enable environment support in jupyter:
+`conda install nb_conda`
+
 # Step 2 - Install the Dependencies
 
 Activate the virtual environment, install dependencies and run setup:
 
 ```
 conda activate MaskRCNN
+conda install jupyter
 pip3 install -r requirements.txt
 python3 setup.py install
 ```
 
 # Step 3 - Install pycocotools
 
+Needed to use Microsoft CoCo dataset:
 `pip3 install git+https://github.com/waleedka/coco.git#subdirectory=PythonAPI`
 
 # Step 4 - Launch Jupyter
