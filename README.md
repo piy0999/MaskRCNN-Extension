@@ -11,15 +11,13 @@ Activate the virtual environment, install dependencies and run setup:
 
 ```
 conda activate MaskRCNN
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 python3 setup.py install
 ```
 
 # Step 3 - Install pycocotools
 
-- Note: pycocotools requires Visual C++ 2015 Build Tools. Download it from [here](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017) if needed.
-- Install pycocotools
-  `pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI`
+`pip3 install git+https://github.com/waleedka/coco.git#subdirectory=PythonAPI`
 
 # Step 4 - Launch Jupyter
 
