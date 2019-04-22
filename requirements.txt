@@ -10,5 +10,3 @@ opencv-python
 h5py
 imgaug
 IPython[all]
-tensorflow-gpu==1.5
-jupyter
